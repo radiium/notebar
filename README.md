@@ -1,6 +1,6 @@
 # NoteBar (MacOS)
 
-Simple shortcut in menubar for quickly launch Notes.app
+Simple shortcut in menubar for quickly launch Notes.app  
 run on >= MacOS 11.5
 
 ## Usage
