@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1760F529814B9D00ED9D41 /* notebarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1760F429814B9D00ED9D41 /* notebarApp.swift */; };
+		AA1760F929814BA100ED9D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760F829814BA100ED9D41 /* Assets.xcassets */; };
+		AA1760FC29814BA100ED9D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760FB29814BA100ED9D41 /* Preview Assets.xcassets */; };
+		AA17610429814C4F00ED9D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17610329814C4F00ED9D41 /* AppDelegate.swift */; };
+		AA1761062981CBA400ED9D41 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1761052981CBA400ED9D41 /* Info.plist */; };
+		AA1761082981CD3B00ED9D41 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */; };
+		AA17611029824F7900ED9D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17610F29824F7900ED9D41 /* AppDelegate.swift */; };
+		AA17611D29824F9A00ED9D41 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA17611C29824F9A00ED9D41 /* Info.plist */; };
+		AA17611F2982523500ED9D41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17611E2982523500ED9D41 /* main.swift */; };
+		AA1761212982531400ED9D41 /* notebarLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA17610D29824F7900ED9D41 /* notebarLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA17612829825C5A00ED9D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760F829814BA100ED9D41 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA176120298252D200ED9D41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				AA1761212982531400ED9D41 /* notebarLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA1760F129814B9D00ED9D41 /* notebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1760F429814B9D00ED9D41 /* notebarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notebarApp.swift; sourceTree = "<group>"; };
+		AA1760F829814BA100ED9D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1760FB29814BA100ED9D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA1760FD29814BA100ED9D41 /* notebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notebar.entitlements; sourceTree = "<group>"; };
+		AA17610329814C4F00ED9D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA1761052981CBA400ED9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
+		AA17610D29824F7900ED9D41 /* notebarLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebarLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA17610F29824F7900ED9D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA17611C29824F9A00ED9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA17611E2982523500ED9D41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AA1761232982535700ED9D41 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		AA1761252982545500ED9D41 /* notebarLauncher.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = notebarLauncher.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1760EE29814B9D00ED9D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA17610A29824F7900ED9D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1760E829814B9D00ED9D41 = {
+			isa = PBXGroup;
+			children = (
+				AA1760F329814B9D00ED9D41 /* notebar */,
+				AA17610E29824F7900ED9D41 /* notebarLauncher */,
+				AA1760F229814B9D00ED9D41 /* Products */,
+				AA1761222982535700ED9D41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1760F229814B9D00ED9D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1760F129814B9D00ED9D41 /* notebar.app */,
+				AA17610D29824F7900ED9D41 /* notebarLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1760F329814B9D00ED9D41 /* notebar */ = {
+			isa = PBXGroup;
+			children = (
+				AA1760FA29814BA100ED9D41 /* Preview Content */,
+				AA1760F829814BA100ED9D41 /* Assets.xcassets */,
+				AA1760FD29814BA100ED9D41 /* notebar.entitlements */,
+				AA1761052981CBA400ED9D41 /* Info.plist */,
+				AA1760F429814B9D00ED9D41 /* notebarApp.swift */,
+				AA17610329814C4F00ED9D41 /* AppDelegate.swift */,
+				AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */,
+			);
+			path = notebar;
+			sourceTree = "<group>";
+		};
+		AA1760FA29814BA100ED9D41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA1760FB29814BA100ED9D41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA17610E29824F7900ED9D41 /* notebarLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				AA1761252982545500ED9D41 /* notebarLauncher.entitlements */,
+				AA17611C29824F9A00ED9D41 /* Info.plist */,
+				AA17610F29824F7900ED9D41 /* AppDelegate.swift */,
+				AA17611E2982523500ED9D41 /* main.swift */,
+			);
+			path = notebarLauncher;
+			sourceTree = "<group>";
+		};
+		AA1761222982535700ED9D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1761232982535700ED9D41 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1760F029814B9D00ED9D41 /* notebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA17610029814BA100ED9D41 /* Build configuration list for PBXNativeTarget "notebar" */;
+			buildPhases = (
+				AA1760ED29814B9D00ED9D41 /* Sources */,
+				AA1760EE29814B9D00ED9D41 /* Frameworks */,
+				AA1760EF29814B9D00ED9D41 /* Resources */,
+				AA176120298252D200ED9D41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notebar;
+			productName = notebar;
+			productReference = AA1760F129814B9D00ED9D41 /* notebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA17610C29824F7900ED9D41 /* notebarLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA17611929824F7B00ED9D41 /* Build configuration list for PBXNativeTarget "notebarLauncher" */;
+			buildPhases = (
+				AA17610929824F7900ED9D41 /* Sources */,
+				AA17610A29824F7900ED9D41 /* Frameworks */,
+				AA17610B29824F7900ED9D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notebarLauncher;
+			productName = notebarLauncher;
+			productReference = AA17610D29824F7900ED9D41 /* notebarLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1760E929814B9D00ED9D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA1760F029814B9D00ED9D41 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA17610C29824F7900ED9D41 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA1760EC29814B9D00ED9D41 /* Build configuration list for PBXProject "notebar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1760E829814B9D00ED9D41;
+			productRefGroup = AA1760F229814B9D00ED9D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1760F029814B9D00ED9D41 /* notebar */,
+				AA17610C29824F7900ED9D41 /* notebarLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1760EF29814B9D00ED9D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1760FC29814BA100ED9D41 /* Preview Assets.xcassets in Resources */,
+				AA1760F929814BA100ED9D41 /* Assets.xcassets in Resources */,
+				AA1761062981CBA400ED9D41 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA17610B29824F7900ED9D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA17612829825C5A00ED9D41 /* Assets.xcassets in Resources */,
+				AA17611D29824F9A00ED9D41 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1760ED29814B9D00ED9D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA17610429814C4F00ED9D41 /* AppDelegate.swift in Sources */,
+				AA1761082981CD3B00ED9D41 /* Bundle+extension.swift in Sources */,
+				AA1760F529814B9D00ED9D41 /* notebarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA17610929824F7900ED9D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA17611F2982523500ED9D41 /* main.swift in Sources */,
+				AA17611029824F7900ED9D41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1760FE29814BA100ED9D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1760FF29814BA100ED9D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA17610129814BA100ED9D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notebar/notebar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notebar/Preview Content\"";
+				DEVELOPMENT_TEAM = BBK7CY73KF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiium.notebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA17610229814BA100ED9D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notebar/notebar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notebar/Preview Content\"";
+				DEVELOPMENT_TEAM = BBK7CY73KF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiium.notebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA17611A29824F7B00ED9D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notebarLauncher/notebarLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBK7CY73KF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiium.notebarLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA17611B29824F7B00ED9D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notebarLauncher/notebarLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BBK7CY73KF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiium.notebarLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1760EC29814B9D00ED9D41 /* Build configuration list for PBXProject "notebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1760FE29814BA100ED9D41 /* Debug */,
+				AA1760FF29814BA100ED9D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA17610029814BA100ED9D41 /* Build configuration list for PBXNativeTarget "notebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA17610129814BA100ED9D41 /* Debug */,
+				AA17610229814BA100ED9D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA17611929824F7B00ED9D41 /* Build configuration list for PBXNativeTarget "notebarLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA17611A29824F7B00ED9D41 /* Debug */,
+				AA17611B29824F7B00ED9D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1760E929814B9D00ED9D41 /* Project object */;
+}
