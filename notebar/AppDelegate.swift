@@ -27,8 +27,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             self.statusItemMenu = self.buildStatusItemMenu()
             // self.testReadNotesFromNotesApp()
         }
-                
-        private func testReadNotesFromNotesApp() {
+             
+        /*
+         // FIXME
+         Read notes content with applescript
+         not working for now
+        
+         private func testReadNotesFromNotesApp() {
             let source = """
               tell application "Notes"
                 repeat with theNote in notes
@@ -52,6 +57,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 }
             }
         }
+        */
         
         // MARK: - Private
         
@@ -81,7 +87,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         // MARK: - Actions
         
         @objc private func openAppPage(_ sender: Any?) {
-            if let url = URL(string: "https://github.com/radiium") {
+            if let url = URL(string: "https://github.com/radiium/notebar") {
                 NSWorkspace.shared.open(url)
             }
         }
