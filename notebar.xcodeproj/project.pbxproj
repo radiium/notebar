@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA1760F529814B9D00ED9D41 /* notebarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1760F429814B9D00ED9D41 /* notebarApp.swift */; };
 		AA1760F929814BA100ED9D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760F829814BA100ED9D41 /* Assets.xcassets */; };
 		AA1760FC29814BA100ED9D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760FB29814BA100ED9D41 /* Preview Assets.xcassets */; };
 		AA17610429814C4F00ED9D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17610329814C4F00ED9D41 /* AppDelegate.swift */; };
-		AA1761062981CBA400ED9D41 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1761052981CBA400ED9D41 /* Info.plist */; };
 		AA1761082981CD3B00ED9D41 /* Bundle+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */; };
 		AA17611029824F7900ED9D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17610F29824F7900ED9D41 /* AppDelegate.swift */; };
 		AA17611D29824F9A00ED9D41 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA17611C29824F9A00ED9D41 /* Info.plist */; };
 		AA17611F2982523500ED9D41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17611E2982523500ED9D41 /* main.swift */; };
 		AA1761212982531400ED9D41 /* notebarLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA17610D29824F7900ED9D41 /* notebarLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA17612829825C5A00ED9D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1760F829814BA100ED9D41 /* Assets.xcassets */; };
+		AAF1BB4C2983A9EF00E9D5FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1BB4B2983A9EF00E9D5FD /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,12 +34,10 @@
 
 /* Begin PBXFileReference section */
 		AA1760F129814B9D00ED9D41 /* notebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA1760F429814B9D00ED9D41 /* notebarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notebarApp.swift; sourceTree = "<group>"; };
 		AA1760F829814BA100ED9D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1760FB29814BA100ED9D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA1760FD29814BA100ED9D41 /* notebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notebar.entitlements; sourceTree = "<group>"; };
 		AA17610329814C4F00ED9D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA1761052981CBA400ED9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extension.swift"; sourceTree = "<group>"; };
 		AA17610D29824F7900ED9D41 /* notebarLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebarLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA17610F29824F7900ED9D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +45,7 @@
 		AA17611E2982523500ED9D41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AA1761232982535700ED9D41 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		AA1761252982545500ED9D41 /* notebarLauncher.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = notebarLauncher.entitlements; sourceTree = "<group>"; };
+		AAF1BB4B2983A9EF00E9D5FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +91,9 @@
 				AA1760FA29814BA100ED9D41 /* Preview Content */,
 				AA1760F829814BA100ED9D41 /* Assets.xcassets */,
 				AA1760FD29814BA100ED9D41 /* notebar.entitlements */,
-				AA1761052981CBA400ED9D41 /* Info.plist */,
-				AA1760F429814B9D00ED9D41 /* notebarApp.swift */,
 				AA17610329814C4F00ED9D41 /* AppDelegate.swift */,
 				AA1761072981CD3B00ED9D41 /* Bundle+extension.swift */,
+				AAF1BB4B2983A9EF00E9D5FD /* main.swift */,
 			);
 			path = notebar;
 			sourceTree = "<group>";
@@ -210,7 +207,6 @@
 			files = (
 				AA1760FC29814BA100ED9D41 /* Preview Assets.xcassets in Resources */,
 				AA1760F929814BA100ED9D41 /* Assets.xcassets in Resources */,
-				AA1761062981CBA400ED9D41 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +228,7 @@
 			files = (
 				AA17610429814C4F00ED9D41 /* AppDelegate.swift in Sources */,
 				AA1761082981CD3B00ED9D41 /* Bundle+extension.swift in Sources */,
-				AA1760F529814B9D00ED9D41 /* notebarApp.swift in Sources */,
+				AAF1BB4C2983A9EF00E9D5FD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +376,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,6 +407,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

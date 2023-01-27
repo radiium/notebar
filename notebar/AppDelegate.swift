@@ -9,9 +9,7 @@ import Foundation
 import AppKit
 import SwiftUI
 
-
-
-final class AppDelegate: NSObject, NSApplicationDelegate {
+final class NotebarAppDelegate: NSObject, NSApplicationDelegate {
     
     private var menuExtrasConfigurator: MacExtrasConfigurator?
     

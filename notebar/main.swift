@@ -1,13 +1,14 @@
 //
 //  main.swift
-//  notebarLauncher
+//  notebar
 //
-//  Created by amigamac on 26/01/2023.
+//  Created by amigamac on 27/01/2023.
 //
 
 import Cocoa
 
-let delegate = NotebarLauncherAppDelegate()
+let delegate = NotebarAppDelegate()
 let app = NSApplication.shared
 app.delegate = delegate
+app.setActivationPolicy(.accessory)
 _ = NSApplicationMain(CommandLine.argc, CommandLine.unsafeArgv)
