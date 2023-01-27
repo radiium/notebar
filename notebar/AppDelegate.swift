@@ -23,39 +23,7 @@ final class NotebarAppDelegate: NSObject, NSApplicationDelegate {
             super.init()
             self.statusItem = self.buildStatusItem()
             self.statusItemMenu = self.buildStatusItemMenu()
-            // self.testReadNotesFromNotesApp()
         }
-             
-        /*
-         // FIXME
-         Read notes content with applescript
-         not working for now
-        
-         private func testReadNotesFromNotesApp() {
-            let source = """
-              tell application "Notes"
-                repeat with theNote in notes
-                  set theNoteName to name of theNote
-                  log theNoteName
-
-                  set theNoteBody to body of theNote
-                  log theNoteBody
-
-                  log "----"
-                end repeat
-              end tell
-            """
-
-            if let script = NSAppleScript(source: source) {
-                var error: NSDictionary?
-                let evt = script.executeAndReturnError(&error) as NSAppleEventDescriptor
-                print((evt.stringValue ?? "no response") as String)
-                if let err = error {
-                    print(err)
-                }
-            }
-        }
-        */
         
         // MARK: - Private
         
@@ -82,6 +50,54 @@ final class NotebarAppDelegate: NSObject, NSApplicationDelegate {
             return statusItem
         }
         
+        /*
+         // FIXME try close Notes.app if open
+         // https://stackoverflow.com/questions/26576466/close-other-applications-using-swift
+         private func isNotesAppRunning() -> Bool {
+         var isRunning = false
+         let notesAppBundleIdentifier = "com.apple.Notes"
+         let runningApps = NSWorkspace.shared.runningApplications
+         runningApps.forEach {
+         if let current = $0.bundleIdentifier, current == notesAppBundleIdentifier {
+         print(current)
+         isRunning = true
+         }
+         }
+         return isRunning;
+         }
+         */
+        
+        /*
+         // FIXME
+         Read notes content with applescript
+         not working for now
+         
+         private func testReadNotesFromNotesApp() {
+         let source = """
+         tell application "Notes"
+         repeat with theNote in notes
+         set theNoteName to name of theNote
+         log theNoteName
+         
+         set theNoteBody to body of theNote
+         log theNoteBody
+         
+         log "----"
+         end repeat
+         end tell
+         """
+         
+         if let script = NSAppleScript(source: source) {
+         var error: NSDictionary?
+         let evt = script.executeAndReturnError(&error) as NSAppleEventDescriptor
+         print((evt.stringValue ?? "no response") as String)
+         if let err = error {
+         print(err)
+         }
+         }
+         }
+         */
+        
         // MARK: - Actions
         
         @objc private func openAppPage(_ sender: Any?) {
@@ -89,6 +105,7 @@ final class NotebarAppDelegate: NSObject, NSApplicationDelegate {
                 NSWorkspace.shared.open(url)
             }
         }
+        
         
         @objc private func openNotesApp(_ sender: Any?) {
             if let notesApp = FileManager.default.urls(for: .applicationDirectory, in: .systemDomainMask).first?.appendingPathComponent("Notes.app") {
@@ -111,6 +128,8 @@ final class NotebarAppDelegate: NSObject, NSApplicationDelegate {
                 self.statusItem.menu = nil
             }
         }
+        
+        
     }
     
     // MARK: - NSApplicationDelegate
